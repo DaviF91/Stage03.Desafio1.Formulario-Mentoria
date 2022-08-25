@@ -1,10 +1,16 @@
-body {
-  font-family: 'Poppins', sans-serif;
-  background: #E5E5E5;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body::before{
-  content: "";
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #e5e5e5;
+}
+
+body::before {
+  content: '';
   width: 100%;
   height: 436px;
   position: absolute;
@@ -15,15 +21,14 @@ body::before{
   mix-blend-mode: normal;
 }
 
-.page{
+.page {
   width: 750px;
   margin: auto;
 }
 
-
 header {
   width: 417px;
-  margin-top: 140px ;
+  margin-top: 140px;
 }
 header h1 {
   font-family: 'Staatliches', cursive;
@@ -32,14 +37,16 @@ header h1 {
   font-weight: 400;
   font-size: 48px;
   line-height: 60px;
-  color: #FFFFFF;
+  color: #ffffff;
+  margin-bottom: 18px;
 }
-header p{
+header p {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
+  margin-bottom: 58px;
 }
 
 form {
@@ -47,8 +54,9 @@ form {
   display: flex;
   flex-direction: column;
 
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 20px 20px 0px 0px;
+  gap: 30px;
   /*Verificar se nao tem mais nenhum elemento para colocar no form*/
 }
 
@@ -60,7 +68,7 @@ fieldset {
   display: flex;
   flex-direction: column;
   gap: 48px;
-/*Verificar se nao tem mais nenhum elemento para colocar no form*/
+  /*Verificar se nao tem mais nenhum elemento para colocar no form*/
 }
 
 fieldset legend {
@@ -70,12 +78,82 @@ fieldset legend {
   font-size: 24px;
   line-height: 34px;
 
-
   color: #535971;
 
   width: 100%;
-  border-bottom: 1px solid #E6E6F0;
-  padding-bottom: 16px ;
+  border-bottom: 1px solid #e6e6f0;
+  padding-bottom: 16px;
+}
 
+.col-2 {
+  display: flex;
+  gap: 22px;
+}
 
+.col-2 .input-wrapper input {
+  width: 300px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #4e4958;
+  margin-bottom: 8px;
+}
+.input-wrapper label span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #787580;
+}
+.input-wrapper label span:hover {
+  color: #49484b;
+}
+
+.input-wrapper input {
+  background: #fafafc;
+
+  height: 56px;
+
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+
+  padding: 0px 24px;
+}
+
+fieldset h3 {
+  font-family: 'Staatliches';
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+
+  margin-top: 32px;
+  margin-bottom: 8px;
+
+  color: #535971;
+}
+
+.date {
+  display: flex;
+}
+
+.date > .input-wrapper:nth-child(1) {
+  margin-right: 32px;
+}
+
+.date > .input-wrapper:nth-child(2) {
+  margin-right: 10px;
+}
+
+.date > div:nth-child(1) {
+  width: 100%;
 }
