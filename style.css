@@ -1,0 +1,81 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #E5E5E5;
+}
+
+body::before{
+  content: "";
+  width: 100%;
+  height: 436px;
+  position: absolute;
+  left: 0px;
+  top: -2px;
+  z-index: -1;
+  background: #535971;
+  mix-blend-mode: normal;
+}
+
+.page{
+  width: 750px;
+  margin: auto;
+}
+
+
+header {
+  width: 417px;
+  margin-top: 140px ;
+}
+header h1 {
+  font-family: 'Staatliches', cursive;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+header p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+form {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+
+  background: #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
+  /*Verificar se nao tem mais nenhum elemento para colocar no form*/
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+/*Verificar se nao tem mais nenhum elemento para colocar no form*/
+}
+
+fieldset legend {
+  font-family: 'Staatliches', cursive;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+
+
+  color: #535971;
+
+  width: 100%;
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px ;
+
+
+}
