@@ -7,6 +7,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background: #e5e5e5;
+  
 }
 
 body::before {
@@ -57,6 +58,8 @@ form {
   background: #ffffff;
   border-radius: 20px 20px 0px 0px;
   gap: 30px;
+
+  
   
 }
 
@@ -167,6 +170,10 @@ footer {
 
   display: flex;
   flex-direction: column;
+
+  margin-bottom: 366px;
+ 
+
 }
 
 footer .button {
@@ -177,6 +184,8 @@ footer .button {
   margin: 52px 71px;
   padding: 15px 40px;
   text-transform: uppercase;
+
+  
 
 
 background: #FF5374;
