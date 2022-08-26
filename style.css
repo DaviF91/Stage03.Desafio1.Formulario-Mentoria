@@ -57,7 +57,7 @@ form {
   background: #ffffff;
   border-radius: 20px 20px 0px 0px;
   gap: 30px;
-  /*Verificar se nao tem mais nenhum elemento para colocar no form*/
+  
 }
 
 fieldset {
@@ -68,7 +68,7 @@ fieldset {
   display: flex;
   flex-direction: column;
   gap: 48px;
-  /*Verificar se nao tem mais nenhum elemento para colocar no form*/
+  
 }
 
 fieldset legend {
